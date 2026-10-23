@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="64" viewBox="0 0 360 64" role="img" aria-label="Download YTDex for Windows">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#db2777"/></linearGradient></defs>
+  <rect width="360" height="64" rx="14" fill="url(#g)"/>
+  <g fill="#fff"><path d="M38 16h6v20l7-7 4 4-14 14-14-14 4-4 7 7z"/><rect x="25" y="46" width="32" height="5" rx="2"/></g>
+  <text x="72" y="31" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#fff">Download YTDex</text>
+  <text x="72" y="50" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#fde7f3">Free · Windows 10 / 11 · 64-bit &amp; 32-bit</text>
+</svg>
