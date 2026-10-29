@@ -5,7 +5,7 @@
 <h1 align="center">YTDex</h1>
 
 <p align="center">
-  A Windows desktop app for YouTube and YouTube Music, with tabs, a mini player, ad and sponsor skipping,
+  A Windows desktop app for watching videos and listening to music, with tabs, a mini player, ad and sponsor skipping,
   offline saving and a playlist organizer that runs on your PC.
 </p>
 
@@ -15,7 +15,7 @@
 
 <p align="center">
   <sub>Latest version · Windows 10 and 11 · 64-bit and 32-bit · free</sub><br>
-  <sub>Unofficial. Not affiliated with, endorsed by or sponsored by Google LLC or YouTube.</sub>
+  <sub>An independent, unofficial app.</sub>
 </p>
 
 <p align="center">
@@ -27,13 +27,13 @@
 ## What it does
 
 ### Watching
-- **YouTube and YouTube Music in one window.** Open as many tabs as you like. A **YouTube | Music** switch (Ctrl+M)
-  moves a tab between the two and keeps what is playing. Music can use its own sign-in or share your YouTube one.
+- **Videos and music in one window.** Open as many tabs as you like. A **Videos | Music** switch (Ctrl+M)
+  moves a tab between the two and keeps what is playing. Music can use its own sign-in or share the same one.
 - **Mini player.** An always-on-top, resizable window keeps playing while you browse other tabs or hide YTDex (Alt+P).
 - **Fewer interruptions.** Built-in ad and tracker blocking, and **SponsorBlock** skips or marks sponsor segments,
   intros and reminders. You choose per category: skip, show a button, highlight or off.
-- **Player extras.** Default quality and speed, loop, screenshot, copy link at the current time, Return YouTube
-  Dislike, hide Shorts, end screens and info cards, optional DeArrow titles and thumbnails.
+- **Player extras.** Default quality and speed, loop, screenshot, copy link at the current time, dislike
+  counts, hide Shorts, end screens and info cards, optional DeArrow titles and thumbnails.
 - **Desktop touches.** Media keys and the Windows media overlay, tray and background playback, gamepad support and
   (experimental) casting to a TV.
 
@@ -41,7 +41,7 @@
 - A **Download** button under the video, in the player bar and on playlist pages saves video (up to 8K, MP4, WebM or
   MKV) or audio (MP3, M4A or Opus) with subtitles, thumbnail and chapters. It uses the open-source yt-dlp and FFmpeg
   tools, fetched on first use and checked against published hashes. Meant for personal offline viewing where the
-  creator and YouTube's terms allow it.
+  creator and the site's terms allow it.
 
 ### Organizing your library (when signed in)
 - **Organizer for Liked videos and Watch Later.** One **Scan** sorts them into your playlists, or new private ones
@@ -76,7 +76,7 @@
    It installs the right build for your PC. There are separate `-x64` (64-bit) and `-x86` (32-bit) setups too.
 2. Run it. You can install for yourself only (no admin needed) or for all users.
 3. **Windows SmartScreen:** YTDex is not code-signed yet, so Windows may show *"Windows protected your PC"*.
-   Click **More info → Run anyway**. You can check the file against `SHA256SUMS.txt` in the release first.
+   Click **More info → Run anyway**.
 
 After that YTDex keeps itself up to date. A setup for a newer version also installs over an older one and keeps your
 sign-ins, settings and downloads.
@@ -90,14 +90,14 @@ sign-ins, settings and downloads.
 
 **Is it free?** Yes.
 
-**Do I have to sign in?** No. Watching works signed out. Signing in (in the app, on Google's own page) is needed for
+**Do I have to sign in?** No. Watching works signed out. Signing in (in the app, on the official sign-in page) is needed for
 your subscriptions, Liked videos, Watch Later, playlists and the organizer.
 
-**Does it change my YouTube account?** Only when you ask it to: the organizer adds and removes videos in your playlists
+**Does it change my account?** Only when you ask it to: the organizer adds and removes videos in your playlists
 after you review the changes, and can undo its last run. Playlists are never deleted.
 
 **Why does my antivirus or SmartScreen warn about it?** New, unsigned apps often get a warning until they build up a
-reputation. Compare the file with `SHA256SUMS.txt` in the release. If your antivirus quarantines it, please report it.
+reputation. If your antivirus quarantines it, please report it.
 
 **Where are my settings?** In `%APPDATA%\YTDex`. Uninstalling asks whether to keep them (kept by default).
 
@@ -106,19 +106,18 @@ reputation. Compare the file with `SHA256SUMS.txt` in the release. If your antiv
 
 ## Privacy
 - No YTDex account, no analytics, no telemetry. YTDex has no server of its own and collects nothing about you.
-- Your Google sign-in stays in the app's own browser profile on your PC.
-- It contacts YouTube itself, GitHub (for updates and the yt-dlp/FFmpeg tools), and, while those features are on,
-  SponsorBlock and DeArrow (asked with a short hash prefix, not the video ID) and Return YouTube Dislike (asked with the
+- Your sign-in stays in the app's own browser profile on your PC.
+- It contacts the video site itself, GitHub (for updates and the yt-dlp/FFmpeg tools), and, while those features are on,
+  SponsorBlock and DeArrow (asked with a short hash prefix, not the video ID) and the dislike-count service (asked with the
   video ID).
 - The organizer's optional cloud AI is off by default. It uses your own key and only runs when you press *Ask cloud AI*.
   Then it sends only the titles, channel names and the start of the descriptions of the unclear videos, plus your playlist names.
 
 ## Credits
-YTDex grew out of [YouTube Desktop](https://github.com/mikepruett3/youtube-desktop) by **Mike Pruett**. Thanks to him
-and to the projects it builds on: Electron, Ghostery adblocker, SponsorBlock, Return YouTube Dislike, DeArrow,
+YTDex grew out of [the original desktop app](https://github.com/mikepruett3/youtube-desktop) by **Mike Pruett**. Thanks to him
+and to the projects it builds on: Electron, Ghostery adblocker, SponsorBlock, Return Dislike, DeArrow,
 yt-dlp, FFmpeg and onnxruntime.
 
 ## Legal
-YTDex is an independent, unofficial app. It is not affiliated with, endorsed by or sponsored by Google LLC or YouTube.
-YouTube and YouTube Music are trademarks of Google LLC and are used here only to describe what the app works with.
-Please respect creators and YouTube's Terms of Service.
+YTDex is an independent, unofficial app and isn't affiliated with, endorsed by or sponsored by any video or music
+service. All trademarks belong to their owners. Please respect creators and each site's terms of service.
