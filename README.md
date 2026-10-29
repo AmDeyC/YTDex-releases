@@ -18,10 +18,6 @@
   <sub>An independent, unofficial app.</sub>
 </p>
 
-<p align="center">
-  <img src="assets/ytdex-tabs-and-quick-access-bar.png" width="860" alt="YTDex with several tabs open and the quick-access bar at the bottom">
-</p>
-
 ---
 
 ## What it does
@@ -61,14 +57,6 @@
   another PC.
 - **Logs & health.** A plain-language page that shows which features are working, what went wrong and when, with an
   export for bug reports.
-
-<p align="center">
-  <img src="assets/ytdex-downloads.png" width="420" alt="Saving a video for offline viewing">
-  <img src="assets/ytdex-logs-and-health.png" width="420" alt="The Logs and health page">
-  <br>
-  <img src="assets/ytdex-getting-started.png" width="420" alt="The Getting started tour">
-  <img src="assets/ytdex-automatic-updates.png" width="210" alt="About YTDex: updates">
-</p>
 
 ## Install
 
