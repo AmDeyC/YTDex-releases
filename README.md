@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/ytdex-mark.svg" width="88" alt="YTDex">
+  <img src="assets/ytdex-logo.png" width="88" alt="YTDex">
 </p>
 
 <h1 align="center">YTDex</h1>
