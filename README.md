@@ -12,6 +12,8 @@
 
 <p align="center"><sub>Windows 10 and 11 · 64-bit and 32-bit · free · unofficial</sub></p>
 
+<p align="center"><b>Stable 2.0.0</b> is the <a href="https://github.com/AmDeyC/YTDex-releases/releases/latest">latest release</a>. Test builds, when there is one, are on the same page and are marked Pre-release.</p>
+
 ## Features
 - Tabs, Videos and Music modes, and a mini player
 - Ad blocking and sponsor skipping
