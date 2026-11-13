@@ -7,16 +7,16 @@
 <p align="center">Videos and music for Windows, in one app.</p>
 
 <p align="center">
-  <a href="https://github.com/AmDeyC/YTDex-releases/releases/latest"><img src="assets/download-button.svg" width="320" alt="Download YTDex for Windows"></a>
+  <a href="https://github.com/AmDeyC/ytdex-releases/releases/latest"><img src="assets/download-button.svg" width="320" alt="Download YTDex for Windows"></a>
 </p>
 
 <p align="center"><sub>Windows 10 and 11 · 64-bit and 32-bit · free · unofficial</sub></p>
 
-<p align="center"><b>Stable 2.0.0</b> is the <a href="https://github.com/AmDeyC/YTDex-releases/releases/latest">latest release</a>.</p>
+<p align="center"><b>Stable 2.0.0</b> is the <a href="https://github.com/AmDeyC/ytdex-releases/releases/latest">latest release</a>.</p>
 
 ## Pre-release
 
-**2.0.1** is a pre-release, not Stable: [v2.0.1](https://github.com/AmDeyC/YTDex-releases/releases/tag/v2.0.1).
+**2.0.1** is a pre-release, not Stable: [v2.0.1](https://github.com/AmDeyC/ytdex-releases/releases/tag/v2.0.1).
 
 About › Updates › Pre-release needs a license key. That channel reads this release. Stable stays on 2.0.0.
 
@@ -30,14 +30,14 @@ About › Updates › Pre-release needs a license key. That channel reads this r
 - Automatic updates
 
 ## Install
-1. Download **YTDex-Setup-&lt;version&gt;.exe** from the [latest release](https://github.com/AmDeyC/YTDex-releases/releases/latest).
+1. Download **YTDex-Setup-&lt;version&gt;.exe** from the [latest release](https://github.com/AmDeyC/ytdex-releases/releases/latest).
 2. Run it. If Windows shows "Windows protected your PC", click **More info**, then **Run anyway**.
 
 ## Privacy
 No account, no analytics and no tracking. Your sign-in and settings stay on your PC.
 
 ## Help
-Use **Help › Logs & health** and attach the exported log to an [issue](https://github.com/AmDeyC/YTDex-releases/issues).
+Use **Help › Logs & health** and attach the exported log to an [issue](https://github.com/AmDeyC/ytdex-releases/issues).
 
 ## Credits
 Based on [the original desktop app](https://github.com/mikepruett3/youtube-desktop) by **Mike Pruett**.
